@@ -1,0 +1,420 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+.fs{
+  color: #1CB5E0;
+}
+.ls{
+  color: #000851;
+}
+  /* .hi{
+    height: 457pxpx;
+    width: 500px;
+    background-color: red;
+  }
+
+  .image { 
+    position: relative;
+    right: 83px;
+    bottom: 3px;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+} */
+
+
+.image-sec img{
+  position: relative;
+  bottom: 10px;
+  height: 100%;
+  width: 100%;
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+
+}
+.whoaw{
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes floating {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, 15px); }
+  100%   { transform: translate(0, -0px); }   
+}
+.content{
+  position: relative !important;
+  top: 80px !important;
+
+}
+.content p{
+  text-align: justify;
+
+}
+.card-title{
+  color: white;
+}
+.lists{
+  color: white;
+  text-align: center;
+}
+ul li{
+  list-style-type: none;
+ 
+}
+.lists ul li::before{
+  content: "\f00c";
+  font-family: "FontAwesome";
+position: relative;
+right: 5px; 
+}
+.card{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  height: 380px !important;
+}
+
+.premium{
+  border: none;
+  background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+}
+.gold{
+  border: none;
+  background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+}
+.silver{
+  border: none;
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%); 
+ }
+
+ .pb{
+  color: white;
+  font-weight: bolder;
+  border: 1px solid white;
+  background: transparent;
+  position: relative;
+  border-radius: 20px;
+
+ 
+ }
+ .send{
+  /* color: white; */
+  /* font-weight: bolder; */
+  background: #17a2b8;;
+  /* position: relative; */
+  /* border-radius: 20px; */
+
+ 
+ }
+ .send:hover{
+  color: white;
+  /* font-weight: bolder; */
+  background-color: #17a2b8 !important;
+  /* position: relative; */
+  /* border-radius: 20px; */
+
+ 
+ }
+ .pb:hover{
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+
+ }
+.btns{
+position: relative;
+top: 44px;
+}
+
+.btnb{
+  position: relative;
+  top: 69px;
+}
+.cards{
+  height: 200px !important;
+}
+.blog{
+  position: relative;
+  bottom: 10px;
+  height: 180px;
+}
+.seo{
+  position: relative;
+  bottom: 10px;
+  height: 180px;
+}
+.ecom{
+  position: relative;
+  bottom: 10px;
+  height: 180px;
+}
+.webb{
+  position: relative;
+  bottom: 10px;
+  height: 180px;
+}
+.cfooter{
+height: 20px;
+background-color: red;
+}
+.waw{
+  border-radius: 0px !important;
+  border: none !important;
+  box-shadow: none !important;
+
+  
+}
+.waw img{
+  height: 350px;
+ 
+}
+.title{
+  font-weight: bold;
+  text-align: justify;
+}
+.para p{
+  text-align: justify;
+}
+.fixed-bottom{
+  display: flex;
+  justify-content: end;
+}
+.chatbot{
+  background-color: #17A2B8 !important  ;
+  border-radius: 100px !important;
+  border: none !important;
+  position: relative;
+  right: 11px;
+  bottom: 10px;
+  border-color: #17A2B8 !important;
+  /* animation-name: floating;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out; */
+}
+
+.chatbot :hover{
+  border-color: #17A2B8 !important;
+  border: none !important;
+  background-color: #17A2B8 !important;
+}
+.fa-envelope{
+  font-size: 25px;
+}
+
+.footerbar{
+  background-color: black;
+  height: 38vh;
+  position: relative;
+  top: 20px;
+ 
+}
+
+.footerContent{
+  color: white;
+  display: flex;
+  justify-content: center;
+  
+}
+.footerContent h6{
+  
+  text-decoration: underline;
+}
+
+ a{
+  text-decoration: none;
+  color: white;
+  
+}
+
+a:hover{
+  text-decoration: none;
+  color: white;
+  
+}
+.wtsp{
+  position: relative;
+  bottom: 5px;
+}
+.whatsapp{
+  display: inline;
+}
+.insta{
+  position: relative;
+  bottom: 5px;
+}
+.cpyright{
+  position: relative;
+  bottom: 5px;
+}
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+
+.mobile{
+  display: none;
+}
+
+.navbar{
+  font-weight: bold;
+}
+.tt{
+  color: #17A2B8;
+}
+
+.card{
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  height: 350px;
+}
+#contact-form {
+  position: fixed;
+  top: 60%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  /* Add your own styles here */
+}
+@media (max-width:768px){
+  .footerbar{
+   
+    height: 23vh;
+    position: relative;
+    top: 1px;
+   
+  }
+
+.mobile{
+  display:block
+}
+#contact-form{
+  top: 78%;
+  left: 50%;
+}
+.contentt p{
+  text-align: justify;
+
+}
+.web{
+  display: none;
+}
+}
+
+@media  screen and (min-width: 768px) and (max-width: 1024px)  {
+  #contact-form{
+    top: 78%;
+    left: 62%;
+  }
+ 
+  .footerbar{
+    
+    height: 21vh;
+  position: relative;
+  top: 20px;
+  }
+}
+
+
+
+/* about us page */
+
+.aboutus{
+  border-radius: 5px;
+  height: 80vh !important;
+}
+
+.imageh{
+  height: 300px;
+  width: 300px;
+  border-radius: 30px;
+}
+
+.hussain-ceo p{
+  text-align: justify;
+  position: relative;
+  bottom: 9px;
+
+}
+
+.name{
+  font-weight: bold;
+  
+}
+
+.desig .co{
+  font-weight: bold;
+  height: 10px;
+  /* background-color: red; */
+ 
+
+}
+.desig{
+  width: 300px;
+  height: 70px;
+}
+.n{
+  font-weight: bold;
+}
+.div{
+  width: 300px;
+}
+
+@media screen and (min-width: 370px) and (max-width: 1024px) {
+.div{
+
+  position: relative;
+    left: 40px;
+}
+}
+
+@media screen and (max-width:600px) {
+ 
+  .div{
+  position: relative;
+  right: 1px;
+}
+.desig{
+  position: relative;
+  right: 20px;
+}
+}
+
+@media screen and (min-width:600px){
+  .div{
+  position: relative;
+  left: 95px;
+}
+}
+
+@media only screen and (min-width: 768px){
+  .div{
+  position: relative;
+  left: 200px;
+}
+}
+
+@media only screen and (min-width: 992px) {
+  .div{
+  position: relative;
+  left: 66px !important;
+}
+
+}
+
+@media only screen and (min-width: 1200px) {
+  .div{
+  position: relative;
+  left: 74px !important;
+}
+}
