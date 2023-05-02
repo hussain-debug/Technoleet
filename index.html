@@ -61,7 +61,7 @@
             <p> We are specialized in creating stunning websites that not only look great but also deliver exceptional user
               experiences. Our team of talented designers and developers work tirelessly to bring your vision to life
               and help your business thrive online.</p>
-            <button type="button" class="btn btn-info">Register</button>
+            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalLong">Register</button>
 
           </div>
         </div>
@@ -94,7 +94,7 @@
             <p> We are specialized in creating stunning websites that not only look great but also deliver exceptional user
               experiences. Our team of talented designers and developers work tirelessly to bring your vision to life
               and help your business thrive online.</p>
-            <button type="button" class="btn btn-info">Register</button>
+            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalLong">Register</button>
 
           </div>
         </div>
@@ -104,6 +104,28 @@
     </div>
 
   </section>
+
+
+  <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <section id="Pricing">
 
@@ -372,12 +394,7 @@
         aria-hidden="true"></i>
     </button>
   </div>
-  <form name="contact" method="POST" data-netlify="true" onSubmit="submit">
-    <input type="text" name="name" placeholder="Name">
-    <input type="email" name="email" placeholder="Email">
-    <textarea name="message" placeholder="Message"></textarea>
-    <button type="submit">Send</button>
-  </form>
+  
   <div class="container-fluid footerbar">
     <div class="container footerContent">
       <div class="row">
