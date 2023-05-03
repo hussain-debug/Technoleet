@@ -33,10 +33,13 @@ function showContactForm() {
 
     // Set the form method attribute
     form.setAttribute('method', 'POST');
-
+    
     // Set the data-netlify attribute
     form.setAttribute('data-netlify', 'true');
-    form.setAttribute('onSubmit', 'submit');
+    
+    form.addEventListener('submit', function(e) {
+      e.preventDefault(); // prevent the form from submitting normally
+    });    
 
 
     var fieldset = document.createElement("fieldset");
