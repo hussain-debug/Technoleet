@@ -28,8 +28,12 @@ function showContactForm() {
 
     var form = document.createElement("form");
     form.style.padding="10px";
-    form.action="form.php";
-    form.method="POST";
+ form.setAttribute('name','contact');
+ form.setAttribute('method','POST');
+
+ form.setAttribute('data-netlify','true');
+ form.setAttribute('onSubmit','submit');
+
     var fieldset = document.createElement("fieldset");
     fieldset.className = "form-group";
     
