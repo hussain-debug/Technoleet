@@ -29,13 +29,14 @@ function showContactForm() {
     var form = document.createElement("form");
     form.style.padding="10px";
 
-    form.setAttribute('action', '/submit-form');
 
     // Set the form method attribute
     form.setAttribute('method', 'POST');
     
     // Set the data-netlify attribute
     form.setAttribute('data-netlify', 'true');
+    form.setAttribute('onSubmit', 'submit');
+
 
     var fieldset = document.createElement("fieldset");
     fieldset.className = "form-group";
