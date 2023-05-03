@@ -325,8 +325,12 @@ a:hover{
   }
 }
 
-
-
+.contact{
+  display: none;
+}
+.chatbotBtn{
+  display: block;
+}
 /* about us page */
 
 .aboutus{
